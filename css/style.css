@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+section{
+  position: absolute;
+  top: 250px;
+  left: 36%;
+  padding: 50px;
+  border: 9px;
+  background: white;
+  border-style: solid double solid double;
+  border-color: black;
+  border-radius: 5px;
+  font-family: fantasy;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+input{
+  margin-left: 10px;
+  border-color: black;
+  border-radius: 5px;
+  padding: 5px;
+}
+button{
+  margin:10px 0 0 36%;
+  width: 30%;
+  background: white;
+  border: 2px;
+  border-style: solid double solid double;
+  border-color: black;
+  border-radius: 5px;
+}
+button:hover{
+  background: gold;
+  cursor: pointer;
+}
