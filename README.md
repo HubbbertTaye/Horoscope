@@ -1,7 +1,7 @@
 # Simple Horoscope Generator
 When submitting your birth date and number your sun sign horoscope will pop up. Birthday data is not saved.
 
-**Link to project:**
+**Link to project:** https://hubberttaye.github.io/Horoscope/
 
 ![screenshot of horoscope](img/horoscopescreen.png)
 
@@ -13,4 +13,4 @@ Really cool project to work on, simply because I like astrology. CSS was used to
 
 ## Lessons Learned:
 
-I learned how to use .style method for selecting DOM elements. Also learned that tag elements tend to have an array.
+I learned how to use .style method for selecting DOM elements. Also learned that tag elements tend to have an array. Would like to simplify the JS sometime in the future.
