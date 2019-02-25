@@ -1,6 +1,10 @@
 *{
   box-sizing: border-box;
 }
+body{
+  background: url("../img/starsinside.gif") no-repeat center center fixed;
+  background-size: cover;
+}
 .clearfix:after {
   content: ".";
   display: block;
@@ -10,16 +14,15 @@
   height: 0;
 }
 section{
-  position: absolute;
-  top: 250px;
-  left: 36%;
+  width: 33%;
+  margin: 230px 0 0 34%;
   padding: 50px;
   border: 9px;
-  background: white;
+  background: rgba(255,255,255, 0.7);
   border-style: solid double solid double;
-  border-color: black;
+  border-color: white;
   border-radius: 5px;
-  font-family: fantasy;
+  font-family: cursive;
 }
 h1{
   text-align: center;
@@ -34,7 +37,7 @@ input{
   padding: 5px;
 }
 button{
-  margin:10px 0 0 36%;
+  margin:10px 0 0 35%;
   width: 30%;
   background: white;
   border: 2px;
